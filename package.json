@@ -48,6 +48,10 @@
     "@babel/polyfill": "^7.12.1",
     "babel-eslint": "^10.1.0",
     "core-js": "^3.8.1",
-    "eslint-loader": "^4.0.2"
+    "eslint-loader": "^4.0.2",
+    "normalize.css": "^8.0.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.2.1"
   }
 }
