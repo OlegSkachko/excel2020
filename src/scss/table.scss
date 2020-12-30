@@ -18,7 +18,7 @@
   }
 
   .row-info {
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     min-width: $info-cell-width;
@@ -26,7 +26,6 @@
     border: 1px solid $border-color;
     background: #f8f9fa;
     border-top: none;
-
   }
 
   .row-data {
