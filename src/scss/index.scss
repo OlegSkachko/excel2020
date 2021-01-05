@@ -1,14 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import "~normalize.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 @import "header";
 @import "toolbar";
-@import "table";
 @import "formula";
+@import "table";
 @import "dashboard";
-
-
-$red: #f6f7f8;
 
 * {
   margin: 0;
@@ -17,19 +14,14 @@ $red: #f6f7f8;
 }
 
 body {
-  font-family: 'Roboto Light', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
-
-
-  background: $red;
 }
-
 
 .excel {
   position: relative;
-  color: #888888;
+  color: #888;
   height: 100%;
   max-width: 100%;
   font-size: .8rem;
-
 }
