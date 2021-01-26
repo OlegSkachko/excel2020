@@ -5,12 +5,22 @@
     "browser": true,
     "node": true
   },
-  "parserOptions": {
-    "sourceType": "module"
+  "rules": {
+    "semi": "off",
+    "linebreak-style": "off",
+    "indent": "off",
+    "require-jsdoc": "off",
+    "eol-last": "off",
+    "quotes": "off",
+    "padded-blocks": "off",
+    "space-before-blocks": "off",
+    "no-trailing-spaces": "off",
+    "operator-linebreak": "off",
+    "prefer-const": "off",
+    "arrow-parens": "off",
+    "comma-dangle": "off"
+
   },
-  "extends": [
 
-  ]
+  "extends": ["eslint:recommended", "google"]
 }
-
-
